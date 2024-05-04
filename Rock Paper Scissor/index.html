@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Rock - Paper - Scissor</title>
+</head>
+<body>
+    
+    <h1>BATO-BATO PICK</h1>
+    
+    <div class="scoreDisplay">Your Score:
+        <span id="yourScoreDisplay">0</span>
+    </div>
+
+    <div class="scoreDisplay">Computer Score:
+        <span id="computerScoreDisplay">0</span>
+    </div>
+
+    <div class="choices">
+        <button onclick="playGame('rock')"><p>Rock</p>👊</button>
+        <button onclick="playGame('paper')"><p>Paper</p>🖐️</button>
+        <button onclick="playGame('scissor')"><p>Scissor</p>✌️</button>
+    </div>
+
+    <div id="yourDisplay">YOU:</div>
+    <div id="computerDisplay">COMPUTER:</div>
+    <div id="resultDisplay"></div>
+
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
